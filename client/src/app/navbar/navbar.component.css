@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+.input {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.enterdText {
+    padding-top: 1rem;
+    padding-left: 1rem;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.durgesh {
+    padding-top: 1rem;
+    padding-left: 1rem;
+}
+
+.signup {
+    padding: .5rem;
+    margin: .4rem;
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: rgb(45, 17, 71);
+}
+
+.buttomnavlines {
+    height: 16rem;
+    background-color: rgb(45, 17, 71);
+    padding-top: 1.5rem;
+    padding-left: 2rem;
+}
+
+.buttomnavlines .container a {
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+    border-radius: 1rem;
+    border: 1px solid white;
+    padding: .6rem;
+}
+
+.nicelines {
+    color: white;
+    padding-top: 3rem;
+}
+
+.nicelines h2 {
+    font-weight: 600;
+}
+
+.serachBar{
+    padding-top: 1.4rem;
+    text-align: center;
+}
+
+.serachBar input{
+  width: 80%;
+  height: 2.8rem;
+  border-radius: 1rem;
+  border: white;
+  padding-left: 1.5rem;
+}
+
+.serachBar button{
+     position:relative;
+     margin-left: -50px;
+     background-color: transparent;
+     border: none;
+     font-size: 1.3rem;
+     color:rgb(45, 17, 71) ;
+  }
+
+  .services{
+    padding-top: 5rem;
+  }
+
+  .cities{
+     display: grid;
+     margin: auto;
+     text-align: center;
+     grid-template-columns: repeat(5, 1fr);
+  }
+
+.cities span{
+    margin: 2rem;
+    padding:.3rem 0rem ;
+    border-radius: 1rem;
+    border: 1px solid rgb(45, 17, 71);
+    color: rgb(45, 17, 71);
+    cursor: pointer;
+}
+
+.cities span:hover{
+    background-color:rgb(45, 17, 71) ;
+    color: white;
+}

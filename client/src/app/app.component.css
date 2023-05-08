@@ -1,0 +1,64 @@
+.Navbar {
+    background-color: rgb(45, 17, 71);
+    color: white;
+    padding-top: 1.3rem;
+    padding-bottom: 1rem;
+    font-family: 'Poppins', sans-serif;
+}
+
+.startnav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.startnav .leftnav span {
+    font-size: 1.6rem;
+}
+
+.startnav .rightNav a {
+    padding: .5rem;
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.startnav .rightNav span {
+    display: none;
+    font-size: 1.7rem;
+}
+
+@media screen and (max-width:800px) {
+    .startnav .rightNav span {
+        display: block;
+    }
+
+    .startnav .rightNav a {
+        display: none;
+    }
+}
+
+/* ========== sidenav css ========= */
+
+.sidenav {
+    height: 100%;
+    background-color: rgb(45, 17, 71);
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 0px;
+    transition: .5s;
+    overflow-x: hidden;
+    padding-top: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.sidenav a {
+    text-decoration: none;
+    font-size: 22px;
+    padding-left: 4rem;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}

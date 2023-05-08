@@ -1,0 +1,141 @@
+<div class="container allcards ">
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+
+
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+
+    <div class="card my-4 ">
+        <img class="card-img-top" src="assets/img/sec.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">Hotel Name</h5>
+            <p class="card-text">address</p>
+            <span>Starting From 6000</span>
+            <div>
+                rating 2.2
+                total Reviews 23322
+            </div>
+        </div>
+    </div>
+</div>
+
+<div *ngFor="let item of data; let i = index" class="card my-4 ">
+    <div  *ngIf="i === select" >
+        <img  class="card-img-top" src={{item.src}} alt="Card image cap">
+        <div class="card-body">
+            <h5 class="card-title">{{item.hotelName}}</h5>
+            <p class="card-text">{{item.address}}</p>
+            <span>{{item.rating}}</span>
+            <div> {{item.totalreview}} </div>
+        </div>
+    </div>
+</div>
+
+<button (click) = "nextImage()" class="btn primary-btn">Next</button>
+<button (click) = "PrveImage()" class="btn primary-btn">Prve</button>
+
+<div class="footer">
+    <div class="container">
+        <h2>Hotel Booking</h2>
+        <div class="social">
+            <div class="d-grid">
+                <h5>Social Media</h5>
+                <a>Twitter</a>
+                <a>Instagram</a>
+                <a>Youtube</a>
+                <a>Facebook</a>
+            </div>
+            <div class="d-grid">
+                <h5>Services</h5>
+                <a>Rajasthan</a>
+                <a>Goa</a>
+                <a>Maharashtra</a>
+                <a>Utter Pradesh</a>
+            </div>
+            <div class="d-grid">
+                <h5>Services</h5>
+                <a>Utterakhand</a>
+                <a>Kerla</a>
+                <a>Bihhar</a>
+                <a>Himanchal Pradesh</a>
+            </div>
+        </div>
+    </div>
+    <div class="line"></div>
+    <div class="downfooter">
+        <span>@copyright Durgesh chaudhary</span>
+    </div>
+</div>

@@ -1,0 +1,63 @@
+.logintab {
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    height: 30rem;
+    margin-top: 5rem;
+    color: white;
+    width: 60%;
+}
+
+.logintab .sideLeft {
+    background-color: rgb(45, 17, 71);
+    margin: auto;
+    font-size: 2rem;
+    padding: 11rem 7rem;
+    box-shadow: 0px 0px 30px -10px rgb(45, 17, 71);
+}
+
+.logintab .loginRight {
+    text-align: center;
+    padding: 6.3rem 9rem;
+    margin: auto;
+    box-shadow: 0px 0px 30px -10px rgb(45, 17, 71);
+}
+
+.loginRight h2{
+    color: rgb(45, 17, 71);
+}
+
+.logintab .loginRight input {
+    margin-top: 1rem;
+    width: 18rem;
+    font-size: 1.5rem;
+}
+
+.logintab .buttonlogin button {
+    background: transparent;
+    font-size: 1.5rem;
+    border:1px solid rgb(45, 17, 71) ;
+    border-radius: .2rem;
+    padding: .2rem 5rem;
+    color: rgb(45, 17, 71);
+}
+
+.logintab .buttonlogin button:hover {
+    background-color:rgb(45, 17, 71) ;
+    color: white;
+}
+
+@media screen and (max-width:1024px) {
+    .logintab .sideLeft {
+        display: none;
+    }
+}
+
+@media screen and (max-width:700px) {
+    .logintab .loginRight {
+        text-align: center;
+        padding: 6.3rem 4rem;
+        margin: auto;
+        box-shadow: 0px 0px 30px -10px rgb(45, 17, 71);
+    }
+}

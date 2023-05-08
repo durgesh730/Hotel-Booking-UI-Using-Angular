@@ -1,0 +1,54 @@
+<div class="buttomnavlines">
+    <div class="container">
+        <a href=""> <fa-icon [icon]="faBed "></fa-icon> Stays</a>
+
+        <div class="nicelines">
+            <h2>Find your next stay</h2>
+            <small>Search low prices on hotels, homes and much more...</small>
+        </div>
+
+        <div class="serachBar">
+            <input type="text" placeholder="Search...">
+            <button><fa-icon [icon]="faMagnifyingGlass"></fa-icon></button>
+        </div>
+    </div>
+</div>
+
+
+
+<!-- <div class="my-4 cro w-100">
+    <ngb-carousel class="cro" *ngIf="images" [showNavigationArrows]="showNavigationArrows"
+        [showNavigationIndicators]="showNavigationIndicators">
+        <ng-template class="cro" ngbSlide *ngFor="let image of images">
+            <div class="picsum-img-wrapper cro ">
+                <img [src]="image" alt="Random slide" />
+            </div>
+            <div class="carousel-caption">
+                <h3>No mouse navigation</h3>
+                <p>This carousel hides navigation arrows and indicators.</p>
+            </div>
+        </ng-template>
+    </ngb-carousel>
+</div> -->
+
+<div class="services">
+    <div class="container">
+        <h2>Our Services Cities</h2>
+        <div class="cities">
+            <span>Goa</span>
+            <span>Maharashtra</span>
+            <span>Uttrakhand</span>
+            <span>Uttar Pradesh</span>
+            <span>Jammu & Kashmir</span>
+        </div>
+    </div>
+</div>
+<app-carousel [images]="images"></app-carousel>
+
+<div class="stay my-4 ">
+    <div class="container">
+        <h2>Looking for the perfect stay?</h2>
+        <span>Let's see...!</span>
+    </div>
+</div>
+<app-rooms></app-rooms>

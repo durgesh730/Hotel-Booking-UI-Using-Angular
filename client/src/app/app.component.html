@@ -1,0 +1,26 @@
+<div class="Navbar">
+    <div class="container">
+        <div class="startnav">
+            <div class="leftnav">
+                <span>BookingHotels</span>
+            </div>
+            <div class="rightNav">
+                <a routerLink="">Welcome ?</a>
+                <a class="signup" routerLink="login">Login</a>
+                <a class="signup" routerLink="signup">signup</a>
+                <span (click)="opensideNav()">
+                    <fa-icon [icon]="faBars"></fa-icon>
+                </span>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div id="mysidenav" [style.width]="width" class="sidenav">
+    <a href="">Home</a>
+    <a href="">about</a>
+    <a href="">Login</a>
+    <a href="">signup</a>
+</div>
+
+<router-outlet></router-outlet>

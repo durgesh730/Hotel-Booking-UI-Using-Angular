@@ -1,0 +1,52 @@
+.allcards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    padding-bottom: 4rem;
+}
+
+.card {
+    width: 18rem;
+}
+
+.social {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer {
+    padding-top: 3rem;
+    text-align: center;
+    background-color: rgb(45, 17, 71);
+    color: white;
+}
+
+.footer .social {
+    padding-top: 3rem;
+    padding-bottom: 4rem;
+}
+
+.line {
+    height: .05rem;
+    background-color: white;
+}
+
+.downfooter {
+    background-color: rgb(45, 17, 71);
+}
+
+.downfooter {
+    padding-top: .5rem;
+    padding-bottom: 1rem;
+}
+
+.card-body{
+   text-align: center;
+}
+
+.btn-book {
+    text-decoration: none;
+    border: 1px solid rgb(45, 17, 71);
+    border-radius: .3rem;
+    padding: .4rem 2rem;
+    color: rgb(45, 17, 71);
+}
